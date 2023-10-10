@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML and CSS</title>
     <style>
         /* class styling */
-        .header{
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        .header {
+            /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
         }
-        .main:hover{
+
+        .main:hover {
             color: blueviolet;
         }
 
         /* element styling */
         body {
-            background-image: url('https://i.postimg.cc/X70rW6tL/cool-cat-fantasy-art-u3d2hoo99657q64l.webp');
-            background-size: 100%;
-            color: azure;
+            /* background-image: url('https://i.postimg.cc/X70rW6tL/cool-cat-fantasy-art-u3d2hoo99657q64l.webp'); */
+            /* background-attachment: fixed; */
+            /* background-size: 100%; */
+            /* color: azure; */
+            /* CSS box model show in chrome */
+            /* padding: 30px; */
+            /* margin: 20px; */
+            /* border: 10px double white; */
+            /* text-align: center; */
         }
+
         /* parent to child */
-        #nav a{
-            color: aliceblue;
-            text-decoration: none;
+        #nav a {
+            /* color: aliceblue; */
+            /* text-decoration: none; */
+            background-color: ;
         }
     </style>
 </head>
+
 <body>
     <!-- semantic elements -->
     <header class="header">
-        <h4>
+        <h4 id="h4">
             This is a header
         </h4>
     </header>
@@ -40,23 +51,27 @@
         <a href="https://www.w3schools.com/js/default.asp">Javascript</a>
         <a href="https://www.w3schools.com/bootstrap5/index.php">bootstrap5</a>
     </nav>
-    
+
     <main class="main">
-        <h1>All the important information goes here</h1>
+        <h1 id="h1">All the important information goes here</h1>
     </main>
-    <iframe style="height: 500px; width: 50%;" src="/White and Blue Clean Lines Sales Executive Resume.pdf" frameborder="10"></iframe>
-    
+    <!-- <iframe style="height: 500px; width: 50%;" src="/White and Blue Clean Lines Sales Executive Resume.pdf"
+        frameborder="10">
+    </iframe> -->
+
     <footer id="anythingIWant">
         <h6>
             This is a footer
         </h6>
     </footer>
-<!--
+    <!--
     document.getElementById("")
     document.getElementByClassName("")
+    document.getElementsByTagName
     querySelector()
     querySelectorAll()
 
  -->
 </body>
+
 </html>
